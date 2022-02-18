@@ -1,0 +1,20 @@
+$widthColumn: 40px;
+.calendar{
+    width:$widthColumn * 7;
+}
+.calendar-header{
+    display:flex;
+    div{
+        padding:5px;
+        flex: 0 0 $widthColumn;
+    }
+    
+}
+.calendar-body{
+    display:flex;
+    flex-wrap: wrap;
+    div{
+        padding:5px;
+        flex: 0 0 $widthColumn;
+    }
+}
